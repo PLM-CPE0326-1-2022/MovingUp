@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FAQActivity">
+    <include
+        android:id="@+id/shsfaq_toolbar"
+        layout="@layout/app_bar_layout"></include>
+    <ScrollView
+        android:id="@+id/questionlist"
+        android:layout_below="@id/shsfaq_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="What is Senior High School?"
+                android:background="#9999ff" />
+            <ImageView
+                android:id="@+id/answer1"
+                android:layout_below="@id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question2"
+                android:layout_below="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Will SHS mean two more years of High School?"
+                android:background="#b2b2ff" />
+            <ImageView
+                android:id="@+id/answer2"
+                android:layout_below="@id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+            android:id="@+id/question3"
+            android:layout_below="@id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Will the additional two years of High School mean additional expenses?"
+            android:background="#ccccff" />
+            <ImageView
+                android:id="@+id/answer3"
+                android:layout_below="@id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question4"
+                android:layout_below="@id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="What will I learn in SHS that the current high school curriculum doesn't include?"
+                android:background="#e5e5ff" />
+            <ImageView
+                android:id="@+id/answer4"
+                android:layout_below="@id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question5"
+                android:layout_below="@id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Will SHS ensure employment for me?"
+                android:background="#9999ff" />
+            <ImageView
+                android:id="@+id/answer5"
+                android:layout_below="@id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question6"
+                android:layout_below="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How will SHS affect my college education?"
+                android:background="#b2b2ff" />
+            <ImageView
+                android:id="@+id/answer6"
+                android:layout_below="@id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question7"
+                android:layout_below="@id/answer6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How will students choose their Senior High School specializations?"
+                android:background="#ccccff" />
+            <ImageView
+                android:id="@+id/answer7"
+                android:layout_below="@id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question8"
+                android:layout_below="@id/answer7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How will student specializations/tracks be distributed across Senior High Schools?"
+                android:background="#e5e5ff" />
+            <ImageView
+                android:id="@+id/answer8"
+                android:layout_below="@id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question9"
+                android:layout_below="@id/answer8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Where will Senior High School be implemented? Will my school offer SHS?"
+                android:background="#9999ff" />
+            <ImageView
+                android:id="@+id/answer9"
+                android:layout_below="@id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question10"
+                android:layout_below="@+id/answer9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Will SHS modelling schools that implemented the SHS program in SY 2012-13 be allowed to implement the SHS Program?"
+                android:background="#b2b2ff" />
+            <ImageView
+                android:id="@+id/answer10"
+                android:layout_below="@id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question11"
+                android:layout_below="@id/answer10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Is SHS really necessary? Must I go to SHS?"
+                android:background="#ccccff" />
+            <ImageView
+                android:id="@+id/answer11"
+                android:layout_below="@id/question11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question12"
+                android:layout_below="@id/answer11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="If I choose not to go to SHS, what happens to me?"
+                android:background="#e5e5ff" />
+            <ImageView
+                android:id="@+id/answer12"
+                android:layout_below="@id/question12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question13"
+                android:layout_below="@id/answer12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="What is the Voucher Program?"
+                android:background="#9999ff" />
+            <ImageView
+                android:id="@+id/answer13"
+                android:layout_below="@id/question13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question14"
+                android:layout_below="@+id/answer13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Who will benefit from the Voucher Program? Can I apply?"
+                android:background="#b2b2ff" />
+            <ImageView
+                android:id="@+id/answer14"
+                android:layout_below="@id/question14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question15"
+                android:layout_below="@id/answer14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="What are the advantages of the Voucher Program?"
+                android:background="#ccccff" />
+            <ImageView
+                android:id="@+id/answer15"
+                android:layout_below="@id/question15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question16"
+                android:layout_below="@id/answer15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="How much is the value of the voucher?"
+                android:background="#e5e5ff" />
+            <ImageView
+                android:id="@+id/answer16"
+                android:layout_below="@id/question16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question17"
+                android:layout_below="@id/answer16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="When do the voucher will be released?"
+                android:background="#9999ff" />
+            <ImageView
+                android:id="@+id/answer17"
+                android:layout_below="@id/question17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question18"
+                android:layout_below="@+id/answer17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Does the voucher amount cover other fees (registration, book, etc.)?"
+                android:background="#b2b2ff" />
+            <ImageView
+                android:id="@+id/answer18"
+                android:layout_below="@id/question18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+            <CheckBox
+                android:id="@+id/question19"
+                android:layout_below="@id/answer18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Is there a grade requirement to qualify for a voucher?"
+                android:background="#ccccff" />
+            <ImageView
+                android:id="@+id/answer19"
+                android:layout_below="@id/question19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

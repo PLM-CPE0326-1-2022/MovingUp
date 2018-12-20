@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SHSSchoolPIckerActivity">
+    <include
+        android:id="@+id/shspicker_toolbar"
+        layout="@layout/app_bar_layout"></include>
+    <ScrollView
+        android:id="@+id/pickerlist"
+        android:layout_below="@id/shspicker_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/pickresult_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pickresult"
+                />
+            <Button
+                android:id="@+id/result_button"
+                android:layout_below="@id/pickresult_image"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SEE FUTURE"
+                android:textAlignment="center"
+                />
+
+            <CheckBox
+                android:id="@+id/pick1"
+                android:layout_below="@id/result_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6c080"
+                android:text="I want to help create solutions with the use of technology."/>
+
+            <CheckBox
+                android:id="@+id/pick2"
+                android:layout_below="@id/pick1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#c0d680"
+                android:text="I want to work in the Advertising and Marketing industry someday."/>
+            <CheckBox
+                android:id="@+id/pick3"
+                android:layout_below="@id/pick2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d6c0"
+                android:text="I want to be versatile so I can work in various industries!"/>
+            <CheckBox
+                android:id="@+id/pick4"
+                android:layout_below="@id/pick3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d695"
+                android:text="I'm perceptive when it comes to people's feelings and the way they think."/>
+            <CheckBox
+                android:id="@+id/pick5"
+                android:layout_below="@id/pick4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6d680"
+                android:text="I consider myself stylish, fashionable and trendy."/>
+
+            <CheckBox
+                android:id="@+id/pick6"
+                android:layout_below="@id/pick5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6ab80"
+                android:text="I like coding/would like to learn how to code."/>
+            <CheckBox
+                android:id="@+id/pick7"
+                android:layout_below="@id/pick6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#abd680"
+                android:text="I want to improve agriculture."/>
+            <CheckBox
+                android:id="@+id/pick8"
+                android:layout_below="@id/pick7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80c0d6"
+                android:text="I am good at Carpentry."/>
+            <CheckBox
+                android:id="@+id/pick9"
+                android:layout_below="@id/pick8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6c080"
+                android:text="I want to raise an awareness about physical fitness."/>
+
+            <CheckBox
+                android:id="@+id/pick10"
+                android:layout_below="@id/pick9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#c0d680"
+                android:text="I’m passionate about Visual arts and Media arts."/>
+            <CheckBox
+                android:id="@+id/pick11"
+                android:layout_below="@id/pick10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d6c0"
+                android:text="TI’m a problem-solver."/>
+            <CheckBox
+                android:id="@+id/pick12"
+                android:layout_below="@id/pick11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d695"
+                android:text="Handling finances is my forte!"/>
+            <CheckBox
+                android:id="@+id/pick13"
+                android:layout_below="@id/pick12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6d680"
+                android:text="I want to become a good teacher someday."/>
+
+            <CheckBox
+                android:id="@+id/pick14"
+                android:layout_below="@id/pick13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6ab80"
+                android:text="I want a deeper understanding and appreciation of our rights and responsibilities as individuals and members of the community."/>
+            <CheckBox
+                android:id="@+id/pick15"
+                android:layout_below="@id/pick14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#abd680"
+                android:text="Patterns, textures, draping, pleating, and layering fabrics? Super interesting!"/>
+            <CheckBox
+                android:id="@+id/pick16"
+                android:layout_below="@id/pick15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80c0d6"
+                android:text="I see myself working in the Information Technology industry someday!"/>
+            <CheckBox
+                android:id="@+id/pick17"
+                android:layout_below="@id/pick16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6c080"
+                android:text=" I want to focus in fishery."/>
+
+            <CheckBox
+                android:id="@+id/pick18"
+                android:layout_below="@id/pick17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#c0d680"
+                android:text="I want to teach sports."/>
+            <CheckBox
+                android:id="@+id/pick19"
+                android:layout_below="@id/pick18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d6c0"
+                android:text="I want to make my own film."/>
+            <CheckBox
+                android:id="@+id/pick20"
+                android:layout_below="@id/pick19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d695"
+                android:text="I want to become Engineer someday."/>
+            <CheckBox
+                android:id="@+id/pick21"
+                android:layout_below="@id/pick20"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6d680"
+                android:text="I have good problem-solving and analytical skills."/>
+
+            <CheckBox
+                android:id="@+id/pick22"
+                android:layout_below="@id/pick21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6ab80"
+                android:text="I am totally confused on what to pick in Senior High School."/>
+            <CheckBox
+                android:id="@+id/pick23"
+                android:layout_below="@id/pick22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#abd680"
+                android:text="Volunteer and Community work? Count me in!"/>
+            <CheckBox
+                android:id="@+id/pick24"
+                android:layout_below="@id/pick23"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80c0d6"
+                android:text="I’m creative and imaginative."/>
+            <CheckBox
+                android:id="@+id/pick25"
+                android:layout_below="@id/pick24"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6c080"
+                android:text="I’ve always wanted to learn HTML, CSS and JavaScript."/>
+
+            <CheckBox
+                android:id="@+id/pick26"
+                android:layout_below="@id/pick25"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#c0d680"
+                android:text="I want to create a solution on rice problem in the Philippine."/>
+            <CheckBox
+                android:id="@+id/pick27"
+                android:layout_below="@id/pick26"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d6c0"
+                android:text="I want to learn photography."/>
+            <CheckBox
+                android:id="@+id/pick28"
+                android:layout_below="@id/pick27"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d695"
+                android:text="I want to become a nurse someday."/>
+            <CheckBox
+                android:id="@+id/pick29"
+                android:layout_below="@id/pick28"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6d680"
+                android:text="I want to help the economy by providing and managing employment opportunities."/>
+
+            <CheckBox
+                android:id="@+id/pick30"
+                android:layout_below="@id/pick29"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6ab80"
+                android:text="I love exploring different social sciences like Psychology, Sociology and Anthropology"/>
+            <CheckBox
+                android:id="@+id/pick31"
+                android:layout_below="@id/pick30"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6c080"
+                android:text="I want to work in the fashion industry someday!"/>
+
+            <CheckBox
+                android:id="@+id/pick32"
+                android:layout_below="@id/pick31"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#c0d680"
+                android:text="I want to make my own software, applications, and games."/>
+            <CheckBox
+                android:id="@+id/pick33"
+                android:layout_below="@id/pick32"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d6c0"
+                android:text="I want to learn the art of dancing."/>
+            <CheckBox
+                android:id="@+id/pick34"
+                android:layout_below="@id/pick33"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d695"
+                android:text="I am good at Science and Mathematics."/>
+            <CheckBox
+                android:id="@+id/pick35"
+                android:layout_below="@id/pick34"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6d680"
+                android:text="Managing my own business someday? That’s the dream!"/>
+
+            <CheckBox
+                android:id="@+id/pick36"
+                android:layout_below="@id/pick35"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6ab80"
+                android:text="I want to contribute to society by raising awareness and educating people, especially the youth, about the different issues our world is facing and how we can help create solutions."/>
+
+            <CheckBox
+                android:id="@+id/pick37"
+                android:layout_below="@id/pick36"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6c080"
+                android:text="Film making and photography is my favorite art. "/>
+
+            <CheckBox
+                android:id="@+id/pick38"
+                android:layout_below="@id/pick37"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#c0d680"
+                android:text="I have good presentation and communication skills and want to get even better! "/>
+
+            <CheckBox
+                android:id="@+id/pick39"
+                android:layout_below="@id/pick38"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d6c0"
+                android:text="I love reading books and writing articles, poems, and fiction."/>
+
+            <CheckBox
+                android:id="@+id/pick40"
+                android:layout_below="@id/pick39"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#80d695"
+                android:text="I love drawing and sketching and want to improve my skills."/>
+
+            <CheckBox
+                android:id="@+id/pick41"
+                android:layout_below="@id/pick40"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#d6d680"
+                android:text="I have a knack for storytelling."/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SearchActivity">
+        <include
+            android:id="@+id/search_toolbar"
+            layout="@layout/app_bar_layout"></include>
+
+        <EditText
+            android:id="@+id/searchtext"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/search_toolbar"
+            android:background="@drawable/inputs"
+            android:drawableLeft="@drawable/password"
+            android:ems="10"
+            android:hint="Search...."
+            android:inputType="textAutoComplete"
+            android:padding="8dp" />
+
+        <ImageButton
+            android:id="@+id/btn_searchschool"
+            android:src="@drawable/ic_action_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/search_toolbar"
+            android:layout_toRightOf="@id/searchtext"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/searchlist_view"
+            android:layout_below="@id/btn_searchschool"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp" />
+
+</RelativeLayout>

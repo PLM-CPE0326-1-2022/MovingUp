@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gmail.plmcpesar.k12schoolsearch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.OnboardingScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.RegisterUserAccountActivity" />
+        <activity android:name=".activities.LoginUserAccActivity" />
+        <activity android:name=".activities.SetupUserAccountActivity" />
+        <activity android:name=".activities.SchoolList" />
+        <activity android:name=".activities.ProgramsActivity" />
+        <activity android:name=".activities.SearchActivity" />
+        <activity android:name=".activities.SchoolContentActivity" />
+        <activity android:name=".activities.ClassifiedSearchActivity" />
+        <activity
+            android:name=".activities.SearchSelectionActivity"
+            android:label="@string/title_activity_search_selection"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".activities.DisplayAboutAppActivity" />
+        <activity android:name=".activities.DisplayAcademicStrandListActivity" />
+        <activity android:name=".activities.DisplayTVLStrandListActivity" />
+        <activity android:name=".activities.DisplayArtsAndDesignStrandInfoActivity" />
+        <activity android:name=".activities.DisplaySportStrandInfoActivity" />
+        <activity android:name=".activities.SplashScreenActivity" />
+        <activity android:name=".activities.DisplayAcademicAbmInfoActivity" />
+        <activity android:name=".activities.DisplayAcademicStemInfoActivity" />
+        <activity android:name=".activities.DisplayAcademicHummsInfoActivity" />
+        <activity android:name=".activities.DisplayAcademicGasInfoActivity" />
+        <activity android:name=".activities.DisplayTVLHomeEconomicsInfoActivity" />
+        <activity android:name=".activities.DisplayTVLIctInfoActivity" />
+        <activity android:name=".activities.DisplayTVLIndustrialArtsInfoActivity" />
+        <activity android:name=".activities.DisplayTVLAgriFisheryInfoActivity" />
+        <activity android:name=".BlankActivity" />
+        <activity android:name=".models.SHSSchoolMaps" />
+        <activity android:name=".activities.MapActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBipFR3oX7tAbPfYrL4GIZ-PdDBQ3AK_Yw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activities.SchoolSearchMapActivity"
+            android:label="@string/title_activity_school_search_map" />
+        <activity android:name=".activities.SHSSchoolPIckerActivity" />
+        <activity android:name=".activities.UserProfileActivity" />
+        <activity android:name=".activities.FAQActivity" />
+        <activity android:name=".activities.FavoritesActivity"></activity>
+    </application>
+
+</manifest>

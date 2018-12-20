@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/post_border">
+        <TextView
+            android:id="@+id/schoolcontent_programs_offered"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#67818A"
+            android:text="PROGRAM OFFERS"
+            android:textColor="@color/colorWhite"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+
+                    <TextView
+                        android:id="@+id/content_trackstrandavailable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Track and Strand available: "
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/content_acadtrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="ACADEMIC TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_acadtrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Academic Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_tvltrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="TVL TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_tvltrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="TVL Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_sporttrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="SPORTS TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_sporttrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Sport Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:id="@+id/content_artsanddesigntrack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:text="ARTS AND DESIGN TRACK"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_artsanddesigntrackcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Arts and Design Strand"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="13sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
